@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="RegistrationForm.css">
+	<meta name="viewport" content="width=device-width initial-scale=1" >
+
+
+</head>
+<body>
+	<div >
+	<form id="form" autocomplete="off">
+	<h1 class="header">Register</h1>
+	<div class="icon">
+		<span class="span"><a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a></span>
+        <span class="span"><a href="https://twitter.com/login" class="fa fa-twitter" target="_blank"></a></span>
+		<span class="span"><a href="https://accounts.google.com/" class="fa fa-google" target="_blank"></a></span>
+		<span class="span"><a href="https://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a></span>
+		</div>
+		<div class="body">
+
+		<div class="Username">
+
+		<input type="text" id="Username" placeholder=" Username" class="input" autofocus required>
+		<div id="alert">
+		<p>Please enter a Valid Username.It contains:
+			<ul>
+				<li>It should contain a minimum of 8 and maximum of 12 characters.</li>
+			    <li>Special symbols are not allowed</li>
+			</ul>
+		</p>
+		</div>
+		</div>
+		<br>
+		<br>
+		<div>
+		<input type="E-mail" id="E-mail" placeholder="  E-mail" class="input" required>
+		<div id="alert2">
+		<p>Please enter a Valid E-mail id.</p>
+		</div>
+		</div>
+		<br>
+		<br>
+		<div>
+		<input type="Password" id="Password" placeholder="  Password" class="input" required>
+		<div id="alert3">
+		<p>Please create a valid Password.It contains:
+			<ul>
+				<li>It should contain a minimum of 6 and maximum of 10 characters.</li>
+			    <li>It should contain one uppercase alphabet</li>
+			    <li>It should contain one lowercase alphabet</li>
+			    <li>It should contain one number</li>
+			    <li>It should contain one special symbol</li>
+			</ul>
+		</p>
+		</div>
+		</div>
+		<br>
+		<br>
+		<div>
+		<input type="Password" id="Confirm" placeholder="  Confirm Password" class="input" required>
+		</div>
+		<br>
+		<br>
+		<div class="button">
+		<button type="Register" id="b1">Register</button>
+		</div>
+	</div>
+	</form>
+
+</div>
+
+</body>
+<script type="text/javascript" src="RegistrationForm.js"></script>
+</html>
